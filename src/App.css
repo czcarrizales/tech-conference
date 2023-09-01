@@ -1,42 +1,116 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+#app-hero-container {
+  display: flex;
+  flex-direction: column;
+  background-color: blue;
+  color: white;
   text-align: center;
+  background: linear-gradient(180deg, #7D93FF 0%, #00116C 100%);
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+#app-hero-container h1 {
+  margin-top: 40px;
+  font-size: 40px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#app-hero-container p {
+  margin-top: 40px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+#app-hero-container button {
+  border: 5px solid #FFFFFF;
+  box-shadow: 0px 0px 25px 5px rgba(255, 255, 255, 0.25);
+  border-radius: 5px;
+  background-color: transparent;
+  align-self: center;
+  color: white;
+  padding: 1em;
+  margin-top: 32px;
+  font-weight: 900;
+  margin-bottom: 40px;
 }
 
-.card {
-  padding: 2em;
+#app-about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
 }
 
-.read-the-docs {
-  color: #888;
+#app-about-inner-container {
+  text-align: center;
+  color: white;
+  background-color: #263480;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+#app-about-inner-container p {
+  margin-top: 8px;
+}
+
+#app-companies-container {
+  text-align: center;
+  color: white;
+  background: linear-gradient(180deg, #7D93FF 0%, #00116C 100%);
+  padding: 1rem;
+}
+
+#all-companies {
+  margin-top: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.company {
+  background-color: white;
+  padding: 1rem;
+  margin: 8px;
+  border-radius: 5px;
+  color: black;
+}
+
+#app-reviews-container {
+  padding: 1rem;
+}
+
+#app-reviews-inner-container {
+  text-align: center;
+  color: white;
+  background-color: #263480;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.review {
+  background-color: white;
+  color: black;
+  padding: 1rem;
+  margin: 8px;
+  border-radius: 5px;
+}
+
+#app-tickets-container {
+  text-align: center;
+  background: linear-gradient(180deg, #7D93FF 0%, #00116C 100%);
+  color: white;
+}
+
+.ticket-info {
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+}
+
+#ticket-info-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#app-footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
