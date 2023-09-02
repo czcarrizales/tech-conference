@@ -76,7 +76,7 @@ function App() {
       </div>
       <div id="app-footer-container">
         <a href="">Chazz Carrizales</a>
-        <a href="">LinkedIn</a>
+        <a href="https://www.linkedin.com/in/chazz-carrizales/" target='_blank'>LinkedIn</a>
         <a href="">Facebook</a>
         <a href="">Instagram</a>
         <a href="">Affiliates</a>
