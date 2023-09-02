@@ -18,57 +18,69 @@ function App() {
       <div id='app-companies-container'>
         <h2>Companies</h2>
         <div id='all-companies'>
-        <div className='company'>Company</div>
-        <div className='company'>Company</div>
-        <div className='company'>Company</div>
-        <div className='company'>Company</div>
-        <div className='company'>Company</div>
-        <div className='company'>Company</div>
+          <div className='company'>Google</div>
+          <div className='company'>Apple</div>
+          <div className='company'>Facebook</div>
+          <div className='company'>Sony</div>
+          <div className='company'>Dell</div>
+          <div className='company'>Microsoft</div>
         </div>
-        
+
       </div>
       <div id="app-reviews-container">
         <div id="app-reviews-inner-container">
-        <h2>Reviews</h2>
-        <div className="review">
-          <p>"Stuff about things and such."
-          </p>
+          <h2>Reviews</h2>
+          <div className="review">
+            <p>"This conference was amazing to be at, and I loved meeting so many people."
+            </p>
+          </div>
+          <div className="review">
+            <p>"I really enjoyed getting a sneak peek at the latest inventions."
+            </p>
+          </div>
+          <div className="review">
+            <p>"This is THE conference to go to if you want the latest and greatest in technology on top of meeting the next in line to pioneer the future."
+            </p>
+          </div>
         </div>
-        <div className="review">
-          <p>"Stuff about things and such."
-          </p>
-        </div>
-        <div className="review">
-          <p>"Stuff about things and such."
-          </p>
-        </div>
-        </div>
-        
-       
+
+
       </div>
       <div id="app-tickets-container">
         <h2>Tickets</h2>
         <div id="ticket-info-container">
-        <div className='ticket-info'>
-        <h3>Standard</h3>
-        <p>Price</p>
-        <p>Some stuff and stuff.</p>
-      </div>
-      <div className='ticket-info'>
-        <h3>VIP</h3>
-        <p>Price</p>
-        <p>Some stuff and stuff.</p>
-      </div>
+          <div className="ticket-card">
+            <div className='ticket-info'>
+              <h3>Standard</h3>
+              <p className='ticket-price'>$29.99</p>
+              <p>Access to all venues</p>
+              <p>General Parking</p>
+            </div>
+            <button>Buy</button>
+          </div>
+          <div className="ticket-card">
+            <div className='ticket-info'>
+              <h3>VIP</h3>
+              <p className='ticket-price'>$99.99</p>
+              <p>Access to all venues</p>
+              <p>VIP Parking</p>
+              <p>Access to VIP guest rooms</p>
+              <p>10% discount on all items</p>
+            </div>
+            <button>Buy</button>
+          </div>
+
+
         </div>
-      
+
       </div>
       <div id="app-footer-container">
-        <a href="">Link</a>
-        <a href="">Link</a>
-        <a href="">Link</a>
-        <a href="">Link</a>
-        <a href="">Link</a>
-        <a href="">Link</a>
+        <a href="">Chazz Carrizales</a>
+        <a href="">LinkedIn</a>
+        <a href="">Facebook</a>
+        <a href="">Instagram</a>
+        <a href="">Affiliates</a>
+        <a href="">Contact</a>
       </div>
     </>
   )

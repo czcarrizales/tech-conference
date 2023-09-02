@@ -5,6 +5,7 @@
   color: white;
   text-align: center;
   background: linear-gradient(180deg, #7D93FF 0%, #00116C 100%);
+  padding: 0 24px;
 }
 
 #app-hero-container h1 {
@@ -41,7 +42,7 @@
   text-align: center;
   color: white;
   background-color: #263480;
-  padding: 1rem;
+  padding: 2rem;
   border-radius: 5px;
 }
 
@@ -72,14 +73,14 @@
 }
 
 #app-reviews-container {
-  padding: 1rem;
+  padding: 2rem 1rem;
 }
 
 #app-reviews-inner-container {
   text-align: center;
   color: white;
   background-color: #263480;
-  padding: 1rem;
+  padding: 2rem;
   border-radius: 5px;
 }
 
@@ -87,7 +88,7 @@
   background-color: white;
   color: black;
   padding: 1rem;
-  margin: 8px;
+  margin: 12px;
   border-radius: 5px;
 }
 
@@ -95,22 +96,64 @@
   text-align: center;
   background: linear-gradient(180deg, #7D93FF 0%, #00116C 100%);
   color: white;
-}
-
-.ticket-info {
-  background-color: white;
-  color: black;
-  border-radius: 5px;
+  padding: 3rem 1rem;
 }
 
 #ticket-info-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-top: 24px;
+}
+
+.ticket-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.ticket-info {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: 8px;
+  flex-grow: 1;
+}
+
+.ticket-price {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-weight: 700;
+}
+
+.ticket-card button {
+  border: 5px solid #FFFFFF;
+  box-shadow: 0px 0px 25px 5px rgba(255, 255, 255, 0.25);
+  border-radius: 5px;
+  background-color: transparent;
+  align-self: center;
+  color: white;
+  padding: 1em 4em;
+  margin-top: 16px;
 }
 
 #app-footer-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 20px; 
+  background-color: #0B0B0B;
+  text-align: center;
+}
+
+#app-footer-container a {
+  text-decoration: none;
+  color: white;
 }
