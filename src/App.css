@@ -24,8 +24,9 @@
   background-color: transparent;
   align-self: center;
   color: white;
-  padding: 1.4em 3em;
+  padding: .8em 2em;
   margin-top: 32px;
+  font-size: 20px;
   font-weight: 900;
   margin-bottom: 40px;
 }
